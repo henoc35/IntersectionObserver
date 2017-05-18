@@ -1,0 +1,9 @@
+.text, .image{
+	transform: translateX(0);
+	opacity: 1;
+	transition:  transform 0.4s, opacity 0.4s;
+}
+.text.not-visible, .image.not-visible{
+	transform: translateX(50px);
+	opacity: 0;
+}
